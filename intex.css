@@ -1,0 +1,14 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+section {
+    background-color: blue;
+}
