@@ -15,17 +15,16 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
     <section>
-        <form action="" id="survey-form">
-            <div>
+        <div>
+            <form action="" id="survey-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="Enter your name here!" required>
                 <label for="email">E-mail</label>
                 <input type="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email" required>
                 <label for="number">Age</label>
                 <input type="number" id="number" min="1" max="150" placeholder="Age" required>
-            </div>
-            <div>   
                 <label for="dropdown">Which option best describes your current role?</label>
+                
                 <select name="roles" id="dropdown">
                     <option style="display: none;">Please choose your roles</option>
                     <option value="student">student</option>
@@ -34,14 +33,15 @@
                     <option value="prefer-no-to-say">Prefer no to say</option>
                     <option value="others">Others</option>
                 </select>
-            </div>
-            <div>
+                
                 <label for="choice">Would you recommend freeCodeCamp to a friend?</label>
-                <input type="radio" id="choice" name="choice"> Definitely
-                <input type="radio" id="choice" name="choice"> Maybe
-                <input type="radio" id="choice" name="choice"> Not sure
-            </div>
-            <div>
+                <input type="radio" id="Definitely" name="choice">
+                <label for="Definitely">Definitely</label>
+                <input type="radio" id=" Maybe" name="choice">
+                <label for=" Maybe"> Maybe</label>
+                <input type="radio" id="Not sure" name="choice">
+                <label for="Not sure">Not sure</label>
+                
                 <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
                 <select name="option" id="dropdown">
                     <option style="display: none;">Select a option</option>
@@ -50,8 +50,7 @@
                     <option value="Community">Community</option>
                     <option value="Open-source">Open Source</option>
                 </select>
-            </div>
-            <div>
+                
                 <label for="checkbox">What would you like to see improved? (Check all that apply)</label>
                 <input type="checkbox" id="checkbox" value="Front-end-Projects"> Front-end Projects
                 <input type="checkbox" id="checkbox" value="Back-end-Projects"> Back-end Projects
@@ -64,13 +63,12 @@
                 <input type="checkbox" id="checkbox" value="Wiki"> Wiki
                 <input type="checkbox" id="checkbox" value="Forum"> Forum
                 <input type="checkbox" id="checkbox" value="Additional-Courses"> Additional Courses
-            </div>
-            <div>
+                
                 <label for="text">Any comments or suggestions?</label>
                 <textarea id="text" placeholder="Enter your comment here..."></textarea>
                 <input type="button" id="submit" value="submit">
-            </div>
-        </form>    
+            </form>
+        </div>    
     </section>
 </body>
 </html>

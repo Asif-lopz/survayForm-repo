@@ -15,14 +15,53 @@ section {
     height: 800px;
 }
 #name {
-    margin: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-#email {
-    margin: 10px;
+  
+#email{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-#number {
-    margin: 10px;
+  
+#dropdown, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+#number{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+#choice {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  
